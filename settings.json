@@ -1,0 +1,70 @@
+{
+  //WINDOW
+  "window.zoomLevel": 1.75,
+
+  //EXPLORER
+  "explorer.compactFolders": false,
+
+  //EDITOR
+  "editor.minimap.enabled": false,
+  "editor.fontSize": 18,
+  "editor.lineHeight": 1.8,
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontLigatures": true,
+  "editor.rulers": [80, 120],
+  "editor.bracketPairColorization.enabled": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+
+  //PRISMA
+  "prisma.enableCodeLens": true,
+  "prisma.fileWatcher": true,
+
+  // TERMINAL
+  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.fontFamily": "JetBrains Mono",
+
+  //WORKBENCH
+  "workbench.colorTheme": "GitHub Dark Default",
+  "workbench.startupEditor": "none",
+  "workbench.tree.indent": 16,
+  "workbench.iconTheme": "material-icon-theme",
+
+  //PRETTIER
+  "prettier.singleQuote": true,
+  "prettier.jsxSingleQuote": true,
+
+  //SECURITY
+  "security.allowedUNCHosts": ["wsl.localhost"],
+
+  //REDHAT
+  "redhat.telemetry.enabled": true,
+
+  //LANGUAGES DEFAULT FORMATTER
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "[tailwindcss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  },
+  "editor.stickyScroll.enabled": false,
+  "explorer.confirmDragAndDrop": false,
+  "typescript.updateImportsOnFileMove.enabled": "always"
+}
