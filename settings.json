@@ -25,7 +25,7 @@
   "terminal.integrated.fontFamily": "JetBrains Mono",
 
   //WORKBENCH
-  "workbench.colorTheme": "GitHub Dark Default",
+  "workbench.colorTheme": "Catppuccin Mocha",
   "workbench.startupEditor": "none",
   "workbench.tree.indent": 16,
   "workbench.iconTheme": "material-icon-theme",
@@ -54,6 +54,10 @@
   },
 
   "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "[go]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
 
